@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+	<title>Node.js Overview</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+	<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+	  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <a class="navbar-brand" href="#">Emerging Technologies</a>
+	  <div class="collapse navbar-collapse" id="navbarText">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item">
+	        <a class="nav-link" href="index.html">GitHub</a>
+	      </li>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Node.js <span class="sr-only">(current)</span></a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+
+    <div class="jumbotron">
+      <div class="container">
+      <a href="https://nodejs.org/en/" target="_blank">
+					<img src="images/nodejs_banner.jpg" alt="Node logo banner">
+			</a>
+      </div>
+    </div>
+
+<div class="container">
+
+		<div id="mySections" data-children=".item">
+		  <div class="item">
+			<button class="btn btn-info">
+		    <a data-toggle="collapse" data-parent="#mySections" href="#mySections1" aria-expanded="true" aria-controls="mySections1">
+		      Purpose
+		    </a>
+			</button>
+		    <div id="mySections1" class="collapse show" role="tabpanel">
+		      <p class="mb-3">
+						<p class="content-para">Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
+						</p>
+
+						<p class="content-para">Node is designed to build scalable network applications. Many connections can be handled concurrently, as it is an asynchronous even driven runtime. Almost no function in Node directly performs I/O, so the process never blocks. Because nothing blocks, scalable systems are very reasonable to develop in Node. In contrast, thread-based networking is relatively inefficient and difficult to use.
+						</p>
+
+						<p class="content-para">Users don't have to wait for blocking processes to complete any non-JavaScript functions; rather they continue to work in the background, while your Node project continues to run. Thus, non-blocking operations are more efficient.
+						</p>
+						<p class="content-para">Users don't have to wait for blocking processes to complete any non-JavaScript functions; rather they continue to work in the background, while your Node project continues to run. Thus, non-blocking operations are more efficient.
+						</p>
+		      </p>
+		    </div>
+		  </div>
+		  <div class="item">
+				<button class="btn btn-info">
+		    <a class="mySectionsHeader" data-toggle="collapse" data-parent="#mySections" href="#mySections2" aria-expanded="false" aria-controls="mySections2">
+		      Learn
+		    </a>
+				</button>
+		    <div id="mySections2" class="collapse" role="tabpanel">
+		      <p class="mb-3">
+							<p class="content-para">Taking a quick look at two free online resources, any junior level developer can learn how to get a Node application off the ground. I will demonstrate this by going through two tutorials:
+							</p>
+
+							<ul class="content-ul">
+								<li><a href="https://www.w3schools.com/nodejs/" target="_blank">w3schools Hello World Tutorial</a></li>
+								<li><a href="https://www.youtube.com/watch?v=U8XF6AFGqlc" target="_blank">Node.js (video) Tutorial For Absolute Beginners</a></li>
+							</ul>
+
+							<p class="content-para">Just through these resources, an aspiring Node.js developer can learn what Node is, how to set up the environment, and how to run a Node environment with some very simple code to see it in action. It won't be anything fancy, but the point is to set up an environment that can then hold a real network application.
+							</p>
+		      </p>
+		    </div>
+		  </div>
+		</div>
+<!-- Might turn into a row
+			<div class="item">
+			<button class="btn btn-info">
+		    <a data-toggle="collapse" data-parent="#mySections" href="#mySections3" aria-expanded="false" aria-controls="mySections3">
+		      Community
+		    </a>
+			</button>
+			<div id="mySections3" class="collapse" role="tabpanel">
+				<p class="mb-3">
+						<p class="content-para">Taking a quick look at two free online resources, any junior level developer can learn how to get a Node application off the ground. I will demonstrate this by going through two tutorials:
+						</p>
+
+						<ul class="content-ul">
+							<li><a href="https://www.w3schools.com/nodejs/" target="_blank">w3schools Hello World Tutorial</a></li>
+							<li><a href="https://www.youtube.com/watch?v=U8XF6AFGqlc" target="_blank">Node.js (video) Tutorial For Absolute Beginners</a></li>
+						</ul>
+
+						<p class="content-para">Just through these resources, an aspiring Node.js developer can learn what Node is, how to set up the environment, and how to run a Node environment with some very simple code to see it in action. It won't be anything fancy, but the point is to set up an environment that can then hold a real network application.
+						</p>
+				</p>
+			</div>
+		</div>
+		  <div class="item">
+				<button class="btn btn-info">
+		    <a class="mySectionsHeader" data-toggle="collapse" data-parent="#mySections" href="#mySections4" aria-expanded="false" aria-controls="mySections4">
+		      Examples
+		    </a>
+				</button>
+		    <div id="mySections4" class="collapse" role="tabpanel">
+		      <p class="mb-3">
+							<p class="content-para">Taking a quick look at two free online resources, any junior level developer can learn how to get a Node application off the ground. I will demonstrate this by going through two tutorials:
+							</p>
+
+							<ul class="content-ul">
+								<li><a href="https://www.w3schools.com/nodejs/" target="_blank">w3schools Hello World Tutorial</a></li>
+								<li><a href="https://www.youtube.com/watch?v=U8XF6AFGqlc" target="_blank">Node.js (video) Tutorial For Absolute Beginners</a></li>
+							</ul>
+
+							<p class="content-para">Just through these resources, an aspiring Node.js developer can learn what Node is, how to set up the environment, and how to run a Node environment with some very simple code to see it in action. It won't be anything fancy, but the point is to set up an environment that can then hold a real network application.
+							</p>
+		      </p>
+		    </div>
+		  </div>
+		</div>
+-->
+
+<div class="row">
+<div class="col-sm-12 col-md-6">
+		<div class="card">
+			<img class="card-img-top" src="images/community.png" alt="community image" />
+					<div class="card-body">
+						<a href="https://nodeschool.io/"><h2>Node School</h2></a>
+						<p>Node School has open source workshops in multiple languages that teach web software skills.</p>
+						<p>As part of Node School, developers have access to online tutorials, as well as the ability to find and hose in-person workshops based on the region they live in.</p>
+						<p>Developers can install core workships or subscribe to a free email newsletter to learn anything they need to learn about Node.js</p>
+					</div>
+				</div>
+			</a>
+</div>
+<div class="col-sm-12 col-md-6">
+	<div class="card">
+			<img class="card-img-top" src="images/example.png" alt="examples image" />
+				<div class="card-body">
+					<a href="https://www.uber.com/"><h2>Uber</h2></a>
+					<p>Uber is one of the most interesting Node.js examples. It is a mobile app that has been nearly doubling in size every 6 months. Data processing capabilities of Node.js allow Uber to scale rapidly and process over 2 million remote procedure calls per second.</p>
+					<a href="https://www.netflix.com/"><h2>Netflix</h2></a>
+					<p>Netflix is the largest global video content and streaming service, and the choice to build on Node.js speaks volumes. With content changing massively each month, decreased build times are crucial in deployment.</p>
+				</div>
+			</div>
+		</a>
+</div>
+</div>
+      <hr>
+<footer>
+  <h6>&copy; 2017 Scott Gordon</h6>
+  <section>
+    <a href="https://www.facebook.com/jesuschrist1" target="_blank" class="fa fa-facebook"></a>
+    <a href="https://www.twitter.com/ScottGordon14" target="_blank" class="fa fa-twitter"></a>
+    <a href="https://github.com/scgordo" target="_blank" class="fa fa-github"></a>
+    <a href="https://www.linkedin.com/in/scott-gordon-34777835/" target="_blank" class="fa fa-linkedin"></a>
+  </section>
+</footer>
+</body>
+</html>

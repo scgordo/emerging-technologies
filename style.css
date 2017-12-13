@@ -1,0 +1,169 @@
+/*
+ * Row with equal height columns
+ * --------------------------------------------------
+ */
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+/*
+ * Styles copied from the Grid example to make grid rows & columns visible.
+ */
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+h4 {
+  margin-top: 25px;
+}
+.row {
+  margin-bottom: 20px;
+}
+.row .row {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+[class*="col-"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eee;
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2);
+}
+
+/*
+ * Callout styles copied from Bootstrap's main docs.
+ */
+/* Common styles for all types */
+.bs-callout {
+  padding: 20px;
+  margin: 20px 0;
+  border-left: 3px solid #eee;
+}
+.bs-callout h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.bs-callout p:last-child {
+  margin-bottom: 0;
+}
+.bs-callout code {
+  background-color: #fff;
+  border-radius: 3px;
+}
+/* Variations */
+.bs-callout-danger {
+  background-color: #fdf7f7;
+  border-color: #d9534f;
+}
+.bs-callout-danger h4 {
+  color: #d9534f;
+}
+.bs-callout-warning {
+  background-color: #fcf8f2;
+  border-color: #f0ad4e;
+}
+.bs-callout-warning h4 {
+  color: #f0ad4e;
+}
+.bs-callout-info {
+  background-color: #f4f8fa;
+  border-color: #5bc0de;
+}
+.bs-callout-info h4 {
+  color: #5bc0de;
+}
+
+body {
+  background: #AEC3B0;
+}
+
+.jumbotron {
+	background-color: #EFF6E0;
+}
+
+.container img {
+	width: 100%;
+	height: 250px;
+  background-color: #EFF6E0;
+}
+
+.card-text {
+  font-weight: normal;
+  color: #124559;
+  text-shadow: none;
+}
+
+.card-body ul li {
+	color: #124559;
+}
+
+.card {
+	background-color: #EFF6E0;
+  border: none;
+}
+
+.card-img-top {
+  height: 200px;
+}
+
+.card-title {
+	text-align: center;
+	color: #124559;
+}
+
+footer h6 {
+  float: left;
+}
+
+footer section {
+  margin-right: 25%;
+}
+
+footer a {
+  float: right;
+  margin-right: 6%;
+}
+
+/* Node Styling */
+
+.item button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 45%;
+}
+
+.collapse .card .card-block h2, p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.item {
+  text-align: center;
+}
+
+.content-para {
+  text-align: left;
+}
+
+.content-ul {
+  text-align: left;
+}
+
+button a:link {
+  color: #124559;
+  font-size: 1.5em;
+}
